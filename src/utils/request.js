@@ -4,7 +4,6 @@ import { getInfo, removeInfo } from '@/utils/storage.js'
 import router from '@/router/index.js'
 import { showDialog } from 'vant';
 const instance = axios.create({
-  //baseURL: 'http://47.120.63.101:8080',
   baseURL: 'http://localhost:8080',
   timeout: 5000,
   withCredentials: false,

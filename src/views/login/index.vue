@@ -1,12 +1,12 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-gray-500">
     <header class="mb-6 text-2xl font-semibold  animate-pulse text-transparent bg-gradient-to-r bg-clip-text  from-red-50 via-fuchsia-500 to-green-200">
-      灵诺科技工作室服务平台
+      BasicVue3
     </header>
     <div class="bg-white shadow-md md:flex xl:flex">
       <!-- 左侧图片 -->
       <div class="hidden md:block xl:w-1/2 lg:w-1/2 md:w-1/2 ">
-        <img src="../../assets/灵诺logo展示图.png" alt="登录图片" class="w-full h-auto" />
+        <img src="../../assets/1.webp" alt="登录图片" class="w-full h-auto" />
       </div>
       <!-- 右侧登录表单 -->
       <div class="flex flex-col justify-center bg-gray-0 p-8 xl:w-1/2 lg:w-1/2 md:w-1/2">
@@ -15,7 +15,6 @@
           <input type="password" placeholder="请输入密码" class="w-full p-2 border rounded" v-model="PassWord"/>
         </div>
         <button class="bg-blue-500 text-white py-2 rounded hover:bg-blue-600" @click="loginAction">登录</button>
-        <span class="text-xl text-pink-500 text-center pointer" @click="router.push('/register')" >没有账号?点击注册</span>
       </div>
     </div>
     <footer class="mt-8 text-gray-0 text-sm text-center">
